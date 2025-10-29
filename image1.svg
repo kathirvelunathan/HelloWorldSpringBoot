@@ -1,0 +1,46 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <!-- Background -->
+  <rect width="400" height="200" fill="#f8f8ff"/>
+  
+  <!-- Main Cloud -->
+  <g id="cloud">
+    <!-- Cloud shadow layers -->
+    <ellipse cx="120" cy="100" rx="45" ry="35" fill="#E6E6FA" opacity="0.8"/>
+    <ellipse cx="150" cy="90" rx="40" ry="30" fill="#E6E6FA" opacity="0.8"/>
+    <ellipse cx="100" cy="90" rx="35" ry="25" fill="#E6E6FA" opacity="0.8"/>
+    <ellipse cx="130" cy="80" rx="30" ry="20" fill="#E6E6FA" opacity="0.8"/>
+    
+    <!-- Main cloud body -->
+    <ellipse cx="120" cy="100" rx="40" ry="30" fill="#C3B1E1"/>
+    <ellipse cx="150" cy="90" rx="35" ry="25" fill="#C3B1E1"/>
+    <ellipse cx="100" cy="90" rx="30" ry="20" fill="#C3B1E1"/>
+    <ellipse cx="130" cy="80" rx="25" ry="15" fill="#C3B1E1"/>
+  </g>
+  
+  <!-- Paper Airplane -->
+  <g id="paper-airplane">
+    <!-- Airplane body emerging from cloud -->
+    <polygon points="140,85 180,70 200,100 180,130 140,115" fill="#6A0DAD"/>
+    
+    <!-- Airplane wing details -->
+    <polygon points="160,95 190,100 160,105" fill="#8A2BE2"/>
+    
+    <!-- Speed line effect -->
+    <line x1="200" y1="100" x2="220" y2="100" stroke="#8A2BE2" stroke-width="2" stroke-dasharray="5,3"/>
+  </g>
+  
+  <!-- HDS Text -->
+  <g id="text">
+    <text x="250" y="110" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#333333" letter-spacing="2">
+      HDS
+    </text>
+    
+    <!-- Optional subtle shadow effect -->
+    <text x="250" y="110" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#6A0DAD" letter-spacing="2" opacity="0.1">
+      HDS
+    </text>
+  </g>
+  
+  <!-- Optional: Subtle background glow -->
+  <ellipse cx="120" cy="100" rx="60" ry="45" fill="#6A0DAD" opacity="0.05"/>
+</svg>
